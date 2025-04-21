@@ -24,7 +24,7 @@ export function initSearch(people) { // rör ej denna rad
       }
     }
     if (found) {
-        resultDisplay.textContent = "Namn hittades!"
+        resultDisplay.textContent = `Namn hittades: ${input}`
       } else {
         resultDisplay.textContent = "Namn hittades inte."
         found = false
